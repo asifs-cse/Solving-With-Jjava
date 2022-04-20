@@ -1,12 +1,14 @@
 import java.util.*;
-class temprature {
-    public static void main(String args[])
-    {
+class division {
+    public static void main(String args[]){
         Scanner in = new Scanner(System.in);
-        double c,f;
-        c = in.nextDouble();
+        int a,b,div;
+        a= in.nextInt();
+        b= in.nextInt();
 
-        f = 32+(c*9/5);
-        System.out.format("%.2f",f);
+        div= a/b;
+        
+        System.out.println(div);
+        
     }
 }
