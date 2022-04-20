@@ -1,15 +1,14 @@
 import java.util.*;
-class maximum {
+class Addition {
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
-        int a,h, num;
+        int a,b,add;
         a= in.nextInt();
+        b= in.nextInt();
+
+        add= a+b;
         
-        h=a/2;
-        num = h*a;
-        
-        
-        System.out.println(num);
+        System.out.println(add);
         
     }
 }

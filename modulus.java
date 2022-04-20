@@ -1,15 +1,14 @@
 import java.util.*;
-class maximum {
+class modulus {
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
-        int a,h, num;
+        int a,b,mod;
         a= in.nextInt();
+        b= in.nextInt();
+
+        mod= a%b;
         
-        h=a/2;
-        num = h*a;
-        
-        
-        System.out.println(num);
+        System.out.println(mod);
         
     }
 }
