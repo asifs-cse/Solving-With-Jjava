@@ -1,13 +1,18 @@
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class clockAngle {
-    public static void main(String args[]){
-        Scanner in = new Scanner(System.in);
+    public static void main(String[] args) throws IOException{
+       Scanner in =new Scanner(System.in);
 
         int h, m;
         double angle;
-        h =in.nextInt();
-        m =in.nextInt();
+        h = in.nextInt();
+        m = in.nextInt();
 
         h=h%12;
 
